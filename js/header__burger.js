@@ -1,0 +1,1 @@
+document.getElementsByClassName("header__burger")[0].onclick=function(){document.getElementsByClassName("header__burger")[0].classList.toggle("active"),document.getElementsByClassName("mobile-menu-link")[0].classList.toggle("active")};

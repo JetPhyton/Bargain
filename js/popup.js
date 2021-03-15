@@ -1,0 +1,1 @@
+var popup=document.getElementsByClassName("popup"),popupText=document.getElementsByClassName("popup__text");popup.onclick=function(p){e=p.target.classList,alert(e);for(var t=0;t<popup.length;t++)popup[t].classList==e&&popupText[t].classList.toggle("active")};for(var i=0;i<popup.length;i++)popup[i];
